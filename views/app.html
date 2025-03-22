@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="../public/favicon.ico" type="image/icon type">
+      <link rel="stylesheet" href="../styles/app.css">
+      <title></title>
+
+      <script type="importmap">
+      {
+         "imports": {
+            "lit": "../lit-core.min.js",
+            "site-header": "../src/layouts/site-header.js",
+            "navigation-bar": "../src/layouts/navigation-bar.js",
+            "side-bar": "../src/layouts/side-bar.js",
+            "main-content": "../src/layouts/main-content.js",
+            "notification-bar": "../src/layouts/notification-bar.js",
+            "site-footer": "../src/layouts/site-footer.js"
+         }
+      }
+      </script>
+      <script type="module" src="./dashboard-view.js"></script>
+   </head>
+
+   <body>
+      <dashboard-view></dashboard-view>
+   </body>
+
+</html>

@@ -1,0 +1,8 @@
+:root {
+   --main-color: #0039A6;
+   --complementary-color: #FCCC0A;
+}
+html, body {
+   height: 100vh;
+   overflow: hidden;
+}
